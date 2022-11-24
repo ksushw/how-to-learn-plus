@@ -1,0 +1,87 @@
+@import url(../../rotation/rotation.css);
+
+.header {
+  background-color: #f2f2f2;
+  min-height: 600px;
+  max-height: 756px;
+  height: 100vh;
+  padding-left: 64px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo_plase_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 228px;
+  height: 32px;
+  z-index: 2;
+}
+
+.header__title {
+  width: 730px;
+  z-index: 2;
+}
+
+.header__title-text {
+  margin: 0;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  z-index: 2;
+}
+
+.header__subtitle-text {
+  margin: 0;
+  font-family: 'Inter';
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  margin: 0;
+  display: inline;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__main-img {
+  width: 100%;
+  height: 100%;
+}
+
+.header__square-pic {
+  margin-top: 64px;
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #2f80ed;
+}
+
