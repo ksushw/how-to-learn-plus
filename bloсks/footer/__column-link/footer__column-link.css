@@ -1,0 +1,19 @@
+.footer__column-link {
+  margin-bottom: 10px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer__column-link:last-of-type {
+  margin: 0;
+}
