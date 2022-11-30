@@ -1,6 +1,4 @@
 .resources__link {
-  width: 270px;
-  height: 38px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -8,5 +6,5 @@
 
 .resources__link:hover {
   transform: scale(1.1);
-  transition: scale 5s ease-in 1s;
+  transition: scale 8s ease-in 1s;
 }

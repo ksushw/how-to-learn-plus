@@ -55,8 +55,9 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/resouses/resourses.css);
-@import url(../blocks/resouses/__link/resources__link.css);
 @import url(../blocks/resouses/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resouses/__link/resources__link.css);
+@import url(../blocks/resouses/__logo/resources__logo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
